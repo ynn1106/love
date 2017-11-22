@@ -1,0 +1,127 @@
+body { 
+    background-color:#B87070;
+    font-family:Verdana,Geneva,Arial,YouYuan, sans-serif;
+    font-size:small;
+    margin:0px;
+}
+#top {
+      position:absolute;
+      color:#E1C4C4;
+      top:0px;
+      left:20px;}
+header{
+  background-color:#E1C4C4;
+  margin:           20px;
+  height:           208px;
+}
+aside{
+    position:absolute;
+    top:295px;
+    left:620px;
+}
+table{
+    position:absolute;
+    top:1265px;
+    left:620px;
+    border:thin solid black;
+    caption-side:bottom;
+    border-collapse:collapse;
+}
+tr:nth-child(2n+1){
+    background-color:#fcba7a;
+}
+th{
+    background-color:#E1C4C4;
+}
+td,th{
+    border:thin dotted gray;
+    padding:5px;
+    font-size:250%;
+}
+caption{
+    font-style:italic;
+    padding-top:8px;
+    font-size:250%;
+}
+#tableContainer {
+    display:table;
+    border-spacing: 10px;
+    
+}
+#tableRow1{
+    display:table-row;
+}
+#tableRow2{
+    display:table-row;
+}
+section#main1,section#blog1{
+  display:table-cell;
+  background:#F0F0F0 url(images/background.jpg);
+  font-size:250%;
+  font-style:YouYuan;
+  padding:15px;
+  margin-top:140px;
+  margin-left:20px;
+  width:500px;
+  
+}
+section#main2,section#blog2{
+  display:table-cell;
+  background:#F0F0F0 url(images/background.jpg);
+  font-size:250%;
+  font-style:YouYuan;
+  padding:15px;
+  margin-top:140px;
+  margin-left:20px;
+  width:500px;
+  
+}
+#coupon {
+    position:absolute;
+    top:1965px;
+    left:620px;
+}
+
+footer{
+      margin: 0px 10px 10px 10px;
+      text-align:right;
+      clear:right;}
+nav {
+    background-color: #E1C4C4;
+	margin: 10px 0px 0px 20px;
+}
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+nav ul li {
+	display: inline;
+	padding: 5px 10px 5px 10px;
+}
+nav ul li a:link, nav ul li a:visited {
+	color:black;
+	border-bottom: none;
+	font-weight: bold;
+}
+nav ul li.selected {
+	background-color: #c8b99c;
+}
+h2{
+    font-size:90%;
+}
+.beanheading {
+  text-align:       center;
+  line-height:      1.8em;
+}
+
+a:link {
+  color:            black;
+  text-decoration:  none;
+  border-bottom:    thin dotted #b76666;
+}
+a:visited {
+  color:            #675c47;
+  text-decoration:  none;
+  border-bottom:    thin dotted #675c47;
+}
